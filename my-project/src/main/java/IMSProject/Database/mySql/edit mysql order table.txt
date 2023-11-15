@@ -1,0 +1,12 @@
+drop table orders;
+use Sprint1;
+CREATE table orders (Date DATE,
+					  cust_email CHAR(25),
+                        cust_location double,
+                      product_id  CHAR(12),
+                      product_quantity double,
+                      order_id double NOT NULL AUTO_INCREMENT PRIMARY KEY)
+                      ;
+			
+use Sprint1;
+select * FROM orders;
